@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="graph.css">
+</head>
+<title>
+Default graph
+</title>
+<script src="cytoscape.min.js"></script>
+<body>
+<u><h1>Default Graph for bfs, dfs, mst</h1></u>
+<div class=u>
+<label for="u"><h3 align=left>Enter the start vertex.</h3></label>
+<input type="character" name="u" id="u">
+<button onclick="bfs()" align=center>Start BFS</button>
+<button onclick="dfs()" align=center>Start DFS</button>
+<button onclick="mst()" align=center>Generate Mst</button>
+</div>
+<div id="cy"></div>
+<a href='graph.html'><h3>Reset graph</h3></a>
+<br>
+<a href='new.html'><h3>To input graph on your own click here</h3></a>
+<script src="graph.js"></script>
+<body>
+</html>
+

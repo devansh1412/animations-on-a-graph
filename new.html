@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="graph.css">
+</head>
+<title>
+Graph from user
+</title>
+<script src="cytoscape.min.js"></script>
+<body>
+<u><h1>Enter the details of the graph.</h1></u>
+<h3>Enter the number of vertices.</h3>
+<input type="text" name="node-no" id="node-no">
+<button onclick="addNodes()">Generate Nodes</button>
+<h4>After pressing generate nodes the vertices will appear on your right.They might look a little congested so you can click on the nodes and hold and move them at a little distance to have a better view of the graph</h4>
+<h3>Enter the details of edge that you want to add.</h3>
+<h3>Source</h3>
+<input type="text" name="source" id="source"><br>
+<h3>Destination</h3>
+<input type="text" name="destination" id="destination"><br>
+<h3>Weight</h3>
+<input type="text" name="weight" id="weight"><br><br>
+<button onclick="Generate()">Generate edge</button>
+<br><br>
+<h3>Enter the start vertex below</h3>
+<input type="text" name="v" id="v">
+<br><br>
+<button onclick="bfs()">Start Bfs</button>
+<br><br>
+<button onclick="dfs()">Start Dfs</button>
+<br><br>
+<button onclick="runmstx()">Generate MST</button><br><br>
+<a href="new.html">To input another graph click here</a>
+<div id="cy"></div>
+<script src="new.js"></script>
+<body>
+</html>
+
