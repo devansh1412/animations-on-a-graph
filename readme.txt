@@ -3,7 +3,7 @@ Welcome to the readme file of the webapp that shows animation of bfs,dfs,mst.
 For opening this webapp please keep all files that were extracted from the zip file in a same folder only.
 Now follow the instructions carefully given below:
 1) Please open the graph.html file first.
-2) Enter the start vertex first in the input box given from which you want to see the bfs, dfs and mst animation. After that click on the    	button provided to see the animation.
+2) Enter the start vertex first in the input box given from which you want to see the bfs, dfs and mst animation. After that click on the button provided to see the animation.
 3) If you want to reset the graph back to its original form click on the link given below the input box.
 4) If you want to input a new graph on your own then click on the link provided on the webpage.
 5) It will take you to a new webpage where you can enter number of vertices you want in graph.
@@ -16,5 +16,4 @@ Now follow the instructions carefully given below:
 ## Sometimes scrolling down the page might zoom in or zoom out the graph so it is recommended to scroll down the page using the sidebar or if you scroll using scroll wheel then keep your mouse pointer away from the graph while scrolling up or down.
 
 Author- Devansh Chaudhary
-Roll number- 11840410
 
